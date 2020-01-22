@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            <p>Valor 1: <input type="number" name="txtnum1" id="txtnum1"></p>
+            <p>Valor 2: <input type="number" name="txtnum2" id="txtnum2"></p>
+            <p>Opções:<br>
+                <input type="radio" name="radio" id="r1" checked>Soma<br>
+                <input type="radio" name="radio" id="r2">Subtração<br>
+                <input type="radio" name="radio" id="r3">Multiplicação<br>
+                <input type="radio" name="radio" id="r4">Divisão
+            </p>
+        </div>
+        <div>
+            <p>Resultado: <span id="res">SEM RESULTADO</span></p>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+    </section>
+    <footer>
+        &copy; Matthieu Christian, 2020
+    </footer>
+</body>
+</html>
